@@ -8,7 +8,7 @@ subtitle:
 description: KezhanW is talking here.
 keywords: 
 author: Kezhan Wang
-language: zh
+language: zh-CN
 timezone: ''
 
 # URL
@@ -106,3 +106,9 @@ deploy:
   type: git
   repository: git@github.com:KezhanW/KezhanW.github.io.git
   branch: master
+
+# 本地搜索
+search:
+  path: search.xml
+  field: post
+  content: true

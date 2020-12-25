@@ -2,13 +2,13 @@
 title: 上传/读取不规则数据的Excel
 date: 2020-12-24 20:25:43
 tags:
-cover: https://s3.ax1x.com/2020/12/24/r2hMKP.jpg
+cover: https://s3.ax1x.com/2020/12/25/rWSkJs.jpg
 copyright_author_href: https://github.com/KezhanW
 copyright_url: https://kezhanw.github.io/2020/12/24/ReadExcel
 ---
 
 # 上传文件
-## 前台
+***
 定义一个文件选择器隐藏和一个导入按钮
 ```html
 <a id="lr_import" class="btn btn-default"><i class="fa fa-sign-in"></i>&nbsp;导入</a>
@@ -60,7 +60,8 @@ copyright_url: https://kezhanw.github.io/2020/12/24/ReadExcel
                 });
             });
 ```
-## 后台
+***
+# 读取文件及存储数据
 先将选择的文件上传到服务器 再读取该Excel
 ```
         /// <summary>
